@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    margin: 0px;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.building{
+    width: 200px;
+    height: 528px;
+    border: 2px solid black;
+    position: relative;
+    background-color: wheat;
+}
+
+#lift{
+    width: 30%;
+    height: 55px;
+    background-color: rgb(34, 166, 248);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    transition: bottom 2s;
+}
+
+.controls{
+    margin-top: 0px;
+    text-align: center;
+}
+
+button{
+    display: block;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 62px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
